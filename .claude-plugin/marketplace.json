@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "vkit",
+  "description": "Personal kit of skills and agents.",
+  "owner": {
+    "name": "Vasyl Vdovychenko",
+    "url": "https://github.com/mrviduus"
+  },
+  "plugins": [
+    {
+      "name": "vkit",
+      "description": "Open-source contribution workflow, pair-programming interview habits, skill discovery, PR test and error-handling reviewers.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}

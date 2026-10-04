@@ -1,0 +1,10 @@
+{
+  "name": "vkit",
+  "version": "0.2.1",
+  "description": "Personal kit of skills and agents: open-source contribution workflow, pair-programming interview habits, skill discovery, PR test and error-handling reviewers.",
+  "author": {
+    "name": "Vasyl Vdovychenko",
+    "url": "https://github.com/mrviduus"
+  },
+  "license": "MIT"
+}
