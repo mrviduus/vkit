@@ -9,7 +9,7 @@
   "plugins": [
     {
       "name": "vkit",
-      "description": "Open-source contribution workflow, pair-programming interview habits, skill discovery, PR test and error-handling reviewers.",
+      "description": "Open-source contribution workflow, pair-programming interview habits, architecture and system design, skill discovery, PR test and error-handling reviewers.",
       "source": "./",
       "category": "productivity"
     }
