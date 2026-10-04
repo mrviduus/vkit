@@ -1,6 +1,6 @@
 {
   "name": "vkit",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Personal kit of skills and agents: open-source contribution workflow, pair-programming interview habits, architecture and system design, skill discovery, PR test and error-handling reviewers.",
   "author": {
     "name": "Vasyl Vdovychenko",

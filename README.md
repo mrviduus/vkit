@@ -27,5 +27,5 @@ Personal Claude Code plugin: skills and agents I actually use.
 Copyright (c) 2026 Affaan Mustafa. The "3 facts" in `interview-pair` are adapted from ECC's GateGuard skill.
 `skill-scout` combines ideas from [vercel-labs/skills](https://github.com/vercel-labs/skills) `find-skills` (MIT) and ECC's `skill-scout`.
 `skills/architecture/references/` (C4 syntax, patterns, common mistakes) is copied from
-[softaworks/agent-toolkit](https://github.com/softaworks/agent-toolkit/tree/main/skills/c4-architecture) (commit `06825f0`), MIT License.
+[softaworks/agent-toolkit](https://github.com/softaworks/agent-toolkit/tree/main/skills/c4-architecture) (commit `06825f0`), MIT License, Copyright (c) 2026 Leonardo Flores.
 The ADR format in `architecture` is adapted from ECC's `architecture-decision-records` skill.
