@@ -16,6 +16,7 @@ Personal Claude Code plugin: skills and agents I actually use.
 | Skill | `oss-contribution` | Open-source contribution workflow: pick an issue, avoid duplicate work, prove the fix (fails before, passes after), publish, triage |
 | Skill | `interview-pair` | Pair-programming interview habits (the 3 facts before the first edit, codebase orientation) and mock interview mode |
 | Skill | `architecture` | Architecture docs with C4 Mermaid diagrams, step-by-step system design, ADRs, system-design interview practice |
+| Skill | `requirement-tdd` | Requirement-first TDD: owner-decided numbered rules, one acceptance test per rule (red first), minimum code, and how to stop endless review loops |
 | Skill | `skill-scout` | Finds existing skills (local, skills.sh, GitHub), vets them for risks, installs only after confirmation |
 | Agent | `pr-test-analyzer` | Reviews whether a PR's tests actually cover the changed behavior |
 | Agent | `silent-failure-hunter` | Finds swallowed errors, dangerous fallbacks, lost error propagation |
