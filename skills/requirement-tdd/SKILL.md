@@ -38,7 +38,9 @@ LIB-1  A download adds the book to the Library. (2026-10-08, QA run #7 finding 1
 
 ## 3. Red → green → stop
 
-1. **One acceptance test per rule**, named with the ID: `it('LIB-1: …')` / `Test_LIB1_…`.
+1. **One acceptance test per rule**, carrying the ID. Where names are free, prefix it
+   (`it('LIB-1: …')`). Where the repo has a naming convention (e.g. `{Method}_{Scenario}_{Expected}`),
+   keep it and attach the ID as a tag/trait/category (`[Trait("Rule","LIB-1")]`, `@pytest.mark.rule("LIB-1")`).
    Run it and watch it **fail for the right reason**.
 2. **Minimum code** to make it pass. Nothing no rule asks for.
 3. Refactor while green. Stop.
@@ -69,7 +71,7 @@ writes", and the exact verification to run. Ask for the test names (red → gree
 
 - [ ] Requirement in one user sentence; product choices asked and answered
 - [ ] Rule written in the feature doc with an ID
-- [ ] Acceptance test named `<ID>: …`, seen red
+- [ ] Acceptance test carries the ID (name prefix or tag), seen red
 - [ ] Minimum code, green; extras logged as separate backlog items
 - [ ] Reviewed; findings fixed without new machinery
 - [ ] PR description lists the rule IDs and their tests
